@@ -1,6 +1,6 @@
 namespace Decorator.DecoratorPattern
 {
-    public class Decorator : IComponent
+    public abstract class Decorator : IComponent
     {
         protected IComponent _component;
 
